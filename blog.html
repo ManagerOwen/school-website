@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+    <script src="https://code/jquery.com/jquery-3.6.0.min0js" integrity="sha256-/xUj+30JU5yExlg6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="school.css">
+</head>
+<body>
+    
+    <!--Navigation-->
+    <nav>
+        <li><a class="active" href="index.html">Home</a></li>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.PNG" alt="">
+        </div>
+    </nav>
+
+    <!--HOME-->
+    <section id="about-home">
+        <h2>Blog /</h2>
+    </section>
+
+    <!--blog-container-->
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/menu.PNG" alt="">
+                <h3>Learn more about wweb development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas non alias eligendi id, aut repellat placeat esse quia amet perferendis consequuntur sit soluta sunt sint vel iusto molestiae similique eum.</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/menu.PNG" alt="">
+                <h3>Learn more about wweb development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas non alias eligendi id, aut repellat placeat esse quia amet perferendis consequuntur sit soluta sunt sint vel iusto molestiae similique eum.</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/menu.PNG" alt="">
+                <h3>Learn more about wweb development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas non alias eligendi id, aut repellat placeat esse quia amet perferendis consequuntur sit soluta sunt sint vel iusto molestiae similique eum.</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/menu.PNG" alt="">
+                <h3>Learn more about wweb development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas non alias eligendi id, aut repellat placeat esse quia amet perferendis consequuntur sit soluta sunt sint vel iusto molestiae similique eum.</p>
+                <a href="post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/menu.PNG" alt="">
+                <h3>Learn more about wweb development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas non alias eligendi id, aut repellat placeat esse quia amet perferendis consequuntur sit soluta sunt sint vel iusto molestiae similique eum.</p>
+                <a href="post.html">Read More</a>
+            </div>
+        </div>
+
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">web development</a>
+            <hr>
+            <a href="#">web design</a>
+            <hr>
+            <a href="#">App development</a>
+            <hr>
+            <a href="#">Frontend web</a>
+            <hr>
+            <a href="#">Python programming</a>
+            <hr>
+            <a href="#">Javascript Hacker</a>
+            <hr>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>News letter</h3>
+            <p>You can trust us. we only send promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @2023 all rights reserved | By jakaowen17@gmail.com +256787091223 / +256708386042</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').add('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>

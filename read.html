@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+    <script src="https://code/jquery.com/jquery-3.6.0.min0js" integrity="sha256-/xUj+30JU5yExlg6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="school.css">
+</head>
+<body>
+    
+    <!--Navigation-->
+    <nav>
+        <li><a class="active" href="index.html">Home</a></li>
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.PNG" alt="">
+        </div>
+    </nav>
+
+    <!--HOME-->
+    <section id="home">
+        <h2>Online Learning</h2>
+        <p>Welcome to our online platform for ICT courses! In today's fast-paced world, it is essential to have strong skills in Information and Communication Technology (ICT) to remain competitive in the job market.</p>
+        <div class="btn">
+            <a class="blue" href="read.html">Learn More</a>
+            <a class="yellow" href="course.html">Visit Courses</a>
+        </div>
+    </section>
+    <section id="read">
+        <h1>Read More</h1>
+        <p>> Online ICT learning refers to the process of acquiring knowledge, skills, and competencies related to information and communication technology through the use of online resources and platforms. <br><br> > Online ICT learning typically involves the use of digital tools such as videos, interactive simulations, online courses, and virtual classrooms to deliver content and facilitate learning. <br><br> > Online ICT learning can cover a wide range of topics, including computer programming, web design, cybersecurity, digital marketing, data analysis, and more. It is often self-paced, meaning that learners can complete the course or program at their own speed, and can access the learning materials from anywhere with an internet connection. <br><br> > Online ICT learning is becoming increasingly popular due to its convenience, flexibility, and accessibility. It allows learners to acquire new skills and knowledge without having to attend traditional classroom-based courses, and it can be more affordable than in-person training. <br><br> > Additionally, online ICT learning can be tailored to individual learning needs and preferences, allowing learners to focus on specific areas of interest or skill gaps.</p>
+    </section>
+    
+
+    <!--footer-->
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Manage Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>News letter</h3>
+            <p>You can trust us. we only send promo offers</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @2023 all rights reserved | By jakaowen17@gmail.com +256787091223 / +256708386042</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').add('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
